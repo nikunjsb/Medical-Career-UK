@@ -40,3 +40,8 @@ The dashboard shows **all currently included vacancies closing within seven days
 
 ## Closing-soon dashboard (17 November 2026)
 The dashboard's seven-day deadline count and compact list now respect the visitor's existing browser-stored profession, role, oncology specialty, selected UK cities and radius (subject to verified employer coordinates). It includes unsaved vacancies. Only three matches appear initially; **Show more/Show fewer** expands the list, while **Explore closing jobs** opens Find Jobs with a seven-day filter. The saved-deadlines number remains separate. Search preferences are not re-requested on the dashboard. This feature only filters the current curated vacancy snapshot; it does not provide comprehensive automatic UK-wide updates.
+
+## Curated vacancy expansion — 17 November 2026
+Eight further official Trac adverts were added to `data/vacancies.json`, bringing the manually curated set from 12 to **20**. The expansion includes oncology/cancer nursing jobs in Cambridge, Bristol, London, Bournemouth, Luton and Nuneaton, plus a London head-and-neck oncology surgical fellowship. The added cities and profession-specific role filters are included in the browser interface. Previously selected whole-UK locations are migrated to include the new cities.
+
+These adverts are employer snapshots, not a continuously updated service. Closing dates may change or posts may close early. The 17 November Nuneaton vacancy is particularly time-sensitive. Records are removed from the current open view when expired or when the dataset becomes stale. Do not infer nationwide completeness or ongoing eligibility from the count of 20. The compact dashboard change may require GitHub Pages to publish the development branch before it becomes visible.
