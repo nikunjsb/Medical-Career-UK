@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Medical Career UK — Oncology Career Finder</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#16293b;background:#f5f8fb}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #2789c3;outline-offset:3px}
+header{background:#10283d;color:white;padding:22px max(20px,calc((100vw - 1130px)/2))}header .brand{font-size:1.35rem;font-weight:750}header p{margin:6px 0 0;color:#d7e9f4}.container{max-width:1130px;margin:0 auto;padding:22px 18px 80px}.notice{background:#fff8e7;border:1px solid #dfbd7b;border-radius:12px;padding:12px 16px;margin-bottom:20px;line-height:1.5}.layout{display:grid;grid-template-columns:295px 1fr;gap:20px}.panel,.job,.detail{background:#fff;border:1px solid #dce5ec;border-radius:15px;box-shadow:0 3px 14px #193b4d0a}.panel{padding:20px}.panel h2,.main h2{margin:0 0 16px;font-size:1.16rem}fieldset{border:0;padding:0;margin:0 0 18px}legend{font-weight:700;margin-bottom:9px}.choices{display:grid;gap:8px}label{font-size:.92rem;line-height:1.4}label.check{display:flex;align-items:flex-start;gap:8px}input[type=checkbox]{accent-color:#12638a;margin-top:3px}select,input[type=text]{width:100%;padding:10px;border:1px solid #bfcdd7;border-radius:9px;background:#fff}select{margin-bottom:8px}.mini{color:#526978;font-size:.82rem}.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{padding:9px 13px;border:1px solid #aec7d5;border-radius:9px;background:#fff;color:#12415a;font-weight:650}.primary{background:#0b6687;border-color:#0b6687;color:#fff}.btn[aria-pressed=true]{background:#d9f0fa;border-color:#348caa}.stats{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 14px}.job{padding:18px;margin-bottom:13px}.job h3{font-size:1.05rem;margin:0 0 6px}.job p{margin:5px 0}.meta{font-size:.86rem;color:#536978}.pill{display:inline-block;border-radius:99px;padding:4px 9px;background:#eaf2f7;color:#20526d;font-size:.76rem;font-weight:650;margin:7px 6px 8px 0}.warn{background:#fff0d5;color:#835318}.detail{padding:19px;margin:16px 0}.detail h3{margin:0 0 8px}.feedback{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.empty{padding:30px;text-align:center;color:#567082;background:white;border-radius:12px}footer{margin-top:24px;color:#526978;font-size:.84rem;line-height:1.5}@media(max-width:780px){.layout{grid-template-columns:1fr}header{padding:22px 18px}.container{padding:16px}.stats{align-items:flex-start;flex-direction:column}}@media(prefers-reduced-motion:no-preference){button{transition:background .15s}}
+</style>
+</head>
+<body>
+<header><div class="brand">✚ Medical Career UK</div><p>Find, understand and prepare for oncology-related careers across the UK.</p></header>
+<main class="container">
+<div class="notice" role="status"><strong>Prototype — not live vacancy data.</strong> The sample listings below are illustrative and are <em>not</em> open job advertisements. Do not use this page to make application decisions. Official vacancy feeds, verification and notifications have not been connected.</div>
+<div class="layout">
+<aside class="panel" aria-label="Job search filters">
+<h2>Find opportunities</h2>
+<fieldset><legend>Job profiles</legend><div class="choices" id="roleChecks"></div><button class="btn" type="button" id="allRoles">Select all profiles</button></fieldset>
+<fieldset><legend>Specialty</legend><label for="specialty">Oncology focus</label><select id="specialty"><option value="all">All oncology-related</option><option value="medical">Medical / Acute oncology</option><option value="clinical">Clinical oncology / radiotherapy</option><option value="surgical">Surgical oncology</option><option value="haemato">Haemato-oncology</option><option value="research">Cancer research</option></select></fieldset>
+<fieldset><legend>Locations</legend><label for="cities">Preferred city</label><select id="cities"><option value="all">All UK cities</option><option>London</option><option>Oxford</option><option>Manchester</option><option>Birmingham</option><option>Bath</option><option>Bristol</option><option>Liverpool</option><option>Leeds</option><option>Sheffield</option><option>Nottingham</option><option>Cambridge</option><option>Newcastle</option><option>Southampton</option><option>Cardiff</option><option>Edinburgh</option><option>Glasgow</option><option>Belfast</option></select><label for="radius">Radius (future live search)</label><select id="radius"><option>20</option><option selected>40</option><option>60</option><option>100</option></select><div class="mini">Radius will use geocoded hospital locations when live data is connected; it is not applied to sample results.</div></fieldset>
+<div class="actions"><button class="btn" id="clear" type="button">Reset filters</button></div>
+</aside>
+<section class="main" aria-label="Vacancies">
+<div class="stats"><h2>Explore jobs</h2><div class="actions"><button class="btn" id="showSaved" type="button" aria-pressed="false">Saved only</button><span class="mini" id="count" role="status"></span></div></div>
+<div id="jobs"></div>
+<section class="detail" aria-labelledby="prepHeading">
+<h3 id="prepHeading">Interview preparation</h3><p class="mini">Illustrative practice prompts, not official NHS interview questions or medical advice.</p>
+<p id="question"></p><button class="btn" id="showGuide" type="button" aria-expanded="false">Show preparation guidance</button><p id="guide" hidden></p>
+<div class="feedback"><span class="mini">Was this helpful?</span><button class="btn" id="up" aria-pressed="false" type="button">👍 Helpful</button><button class="btn" id="down" aria-pressed="false" type="button">👎 Not helpful</button><button class="btn" id="next" type="button">Next question →</button></div>
+</section>
+</section>
+</div>
+<footer>Medical Career UK · Early development preview. Settings, bookmarks and feedback remain on this device (localStorage). No login, email delivery, medical advice or real-time vacancy feed is active. Before public release, implement licensed/authorised job data, employer link verification, accurate geospatial search, secure accounts and accessible notification preferences.</footer>
+</main>
+<script>
+'use strict';
+const roles=['Clinical Fellow','Senior Clinical Fellow','Specialty Doctor','Registrar / Trust Grade','Research Fellow','Consultant','Locum Doctor','Surgical Oncology'];
+const samples=[
+{id:'s1',title:'Medical Oncology Clinical Fellow',role:'Clinical Fellow',specialty:'medical',city:'London',org:'Illustrative London Hospital',summary:'Example description of outpatient cancer clinics and supervised inpatient responsibilities.'},
+{id:'s2',title:'Senior Clinical Fellow — Gynaecological Oncology',role:'Senior Clinical Fellow',specialty:'surgical',city:'Oxford',org:'Illustrative Oxford Hospital',summary:'Example description of a specialist surgical fellowship and multidisciplinary team experience.'},
+{id:'s3',title:'Thoracic Oncology Research Fellow',role:'Research Fellow',specialty:'research',city:'Manchester',org:'Illustrative Manchester Cancer Centre',summary:'Example description of clinical trials and research governance.'},
+{id:'s4',title:'Clinical Oncology Consultant',role:'Consultant',specialty:'clinical',city:'Birmingham',org:'Illustrative Birmingham Hospital',summary:'Example of a consultant-level radiotherapy and systemic therapy position.'},
+{id:'s5',title:'Haemato-oncology Specialty Doctor',role:'Specialty Doctor',specialty:'haemato',city:'Bristol',org:'Illustrative Bristol Hospital',summary:'Example description of haematological cancer services.'}
+];
+const questions=[
+{q:'A patient receiving systemic anti-cancer therapy develops a fever and becomes unwell. What are your immediate priorities?',a:'Structure the response around patient assessment, urgency, appropriate escalation, and following current local emergency pathways. For clinical practice, always consult approved protocols and senior clinicians.'},
+{q:'How would you explain uncertainty in a cancer treatment plan to a patient?',a:'Consider empathy, communication needs, the patient’s existing understanding, clear explanations, shared decision-making and appropriate follow-up.'},
+{q:'Describe a time you worked with a multidisciplinary team to resolve a difficult problem.',a:'Use a specific example structured around Situation, Task, Action and Result. Emphasise professionalism, teamwork and reflection.'}
+];
+const key='medical-career-uk-prototype-v1';let state;try{state=JSON.parse(localStorage.getItem(key))||{}}catch{state={}}
+state.saved=Array.isArray(state.saved)?state.saved:[];state.ratings=state.ratings||{};state.roles=Array.isArray(state.roles)?state.roles:[...roles];state.city=state.city||'all';state.specialty=state.specialty||'all';state.radius=state.radius||'40';state.savedOnly=false;state.questionIndex=0;
+const $=id=>document.getElementById(id),persist=()=>{try{localStorage.setItem(key,JSON.stringify(state))}catch{}};
+function renderRoles(){const holder=$('roleChecks');holder.replaceChildren();roles.forEach(role=>{const label=document.createElement('label');label.className='check';const cb=document.createElement('input');cb.type='checkbox';cb.checked=state.roles.includes(role);cb.addEventListener('change',()=>{state.roles=cb.checked?[...state.roles,role]:state.roles.filter(r=>r!==role);persist();renderJobs()});label.append(cb,document.createTextNode(role));holder.append(label)})}
+function renderJobs(){const root=$('jobs');root.replaceChildren();const list=samples.filter(j=>state.roles.includes(j.role)&&(state.specialty==='all'||j.specialty===state.specialty)&&(state.city==='all'||j.city===state.city)&&(!state.savedOnly||state.saved.includes(j.id)));$('count').textContent=list.length+' illustrative result'+(list.length===1?'':'s');if(!list.length){const d=document.createElement('div');d.className='empty';d.textContent='No sample jobs match these filters.';root.append(d)}list.forEach(j=>{const article=document.createElement('article');article.className='job';const title=document.createElement('h3');title.textContent=j.title;const meta=document.createElement('p');meta.className='meta';meta.textContent=j.org+' · '+j.city;const pill=document.createElement('span');pill.className='pill';pill.textContent=j.role;const demo=document.createElement('span');demo.className='pill warn';demo.textContent='Sample only — not open';const desc=document.createElement('p');desc.textContent=j.summary;const btn=document.createElement('button');btn.className='btn';btn.type='button';btn.textContent=state.saved.includes(j.id)?'★ Saved':'☆ Save';btn.setAttribute('aria-pressed',String(state.saved.includes(j.id)));btn.addEventListener('click',()=>{state.saved=state.saved.includes(j.id)?state.saved.filter(id=>id!==j.id):[...state.saved,j.id];persist();renderJobs()});article.append(title,meta,pill,demo,desc,btn);root.append(article)})}
+function renderQuestion(){$('question').textContent=questions[state.questionIndex].q;$('guide').textContent=questions[state.questionIndex].a;$('guide').hidden=true;$('showGuide').textContent='Show preparation guidance';$('showGuide').setAttribute('aria-expanded','false');for(const [id,val] of [['up','yes'],['down','no']])$(id).setAttribute('aria-pressed',String(state.ratings[state.questionIndex]===val))}
+$('allRoles').onclick=()=>{state.roles=[...roles];persist();renderRoles();renderJobs()};$('clear').onclick=()=>{state.roles=[...roles];state.specialty='all';state.city='all';state.radius='40';state.savedOnly=false;$('specialty').value='all';$('cities').value='all';$('radius').value='40';$('showSaved').setAttribute('aria-pressed','false');persist();renderRoles();renderJobs()};
+for(const [id,prop] of [['specialty','specialty'],['cities','city'],['radius','radius']]){$(id).value=state[prop];$(id).addEventListener('change',e=>{state[prop]=e.target.value;persist();renderJobs()})}
+$('showSaved').onclick=()=>{state.savedOnly=!state.savedOnly;$('showSaved').setAttribute('aria-pressed',String(state.savedOnly));renderJobs()};
+$('showGuide').onclick=()=>{const showing=$('guide').hidden;$('guide').hidden=!showing;$('showGuide').textContent=showing?'Hide preparation guidance':'Show preparation guidance';$('showGuide').setAttribute('aria-expanded',String(showing))};
+for(const [id,val] of [['up','yes'],['down','no']])$(id).onclick=()=>{state.ratings[state.questionIndex]=state.ratings[state.questionIndex]===val?null:val;persist();renderQuestion()};
+$('next').onclick=()=>{state.questionIndex=(state.questionIndex+1)%questions.length;renderQuestion()};
+renderRoles();renderJobs();renderQuestion();
+</script>
+</body></html>
