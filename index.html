@@ -64,9 +64,11 @@ select:focus-visible,input:focus-visible,button:focus-visible,a:focus-visible{ou
 .mobile-filter-toggle{display:none;margin:0 0 12px;width:100%;min-height:46px}
 .job-filter-panel[hidden]{display:none!important}
 .sources-details{border:1px solid #dce5ed;border-radius:12px;padding:14px;margin-top:14px}.sources-details summary{font-weight:700;cursor:pointer}.sources-details a{overflow-wrap:anywhere}
-#pathExperience{min-height:155px}#pathExperience option{padding:5px}
+/* Country registration now uses a standard-height dropdown, not a tall multi-select. */
+#pathExperience{min-height:44px;height:44px}
 @media(max-width:780px){.mobile-filter-toggle{display:block}.job-filter-panel{margin-bottom:12px}}
 /* Mobile-friendly multi-country selection and explicit browser notification status */
+#page-move .two-col{align-items:start}#page-move .field{align-content:start;min-width:0}#page-move .field>label{line-height:1.35}#page-move .field>select,#page-move .field>input{min-height:44px}#page-move .field .mini{margin:4px 0}#page-move .country-summary{margin-top:8px}
 .country-add{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.country-add select{flex:1 1 180px;min-width:0}.country-add button{min-height:44px}
 .selected-countries{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.country-chip{display:inline-flex;align-items:center;gap:7px;background:#eef8f8;border:1px solid #b9dddd;border-radius:20px;padding:3px 5px 3px 12px;max-width:100%}.country-chip-remove{border:0;border-radius:50%;width:30px;height:30px;background:#dbeeee;color:#183d48;font-size:1.2rem}.country-summary{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px}.notification-status{border:1px solid #dce5ec;border-radius:12px;padding:14px;margin-top:16px}.notification-status p{margin:8px 0}
 @media(max-width:420px){.country-add button{width:100%}}
