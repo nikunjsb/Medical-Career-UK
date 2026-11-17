@@ -66,7 +66,7 @@ const questions=[
 const key='medical-career-uk-prototype-v2';let state;try{state=JSON.parse(localStorage.getItem(key))||{}}catch{state={}}
 state.saved=Array.isArray(state.saved)?state.saved:[];state.ratings=state.ratings&&typeof state.ratings==='object'?state.ratings:{};
 state.roles=Array.isArray(state.roles)?state.roles:[...doctorRoles];
-state.cities=Array.isArray(state.cities)?state.cities:[...allCities];
+state.cities=Array.isArray(state.cities)?state.cities:[...allCities];const previousCityList=allCities.filter(c=>!['Bournemouth','Luton','Nuneaton'].includes(c));if(previousCityList.every(c=>state.cities.includes(c)))state.cities=[...allCities];
 state.specialty=state.specialty||'all';state.radius=state.radius||'40';state.savedOnly=false;state.closingOnly=false;state.questionIndex=0;state.profession=state.profession||'doctor';
 let verifiedJobs=[],sourceState='not_connected',closingExpanded=false;const closingPreviewLimit=3;function closesWithinSevenDays(j,now=Date.now()){const t=Date.parse((j.closingDate||'')+'T23:59:59Z');return Number.isFinite(t)&&t>=now&&t-now<=7*86400000}
 const $=id=>document.getElementById(id),persist=()=>{try{localStorage.setItem(key,JSON.stringify(state))}catch{}};
