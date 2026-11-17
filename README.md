@@ -9,7 +9,7 @@ Public, no-login prototype for discovering UK healthcare careers and understandi
 GitHub Pages currently targets the development branch. The main branch is not merged by this work.
 
 ## Navigation (November 17, 2026 design update)
-1. **My Dashboard** — saved jobs, upcoming deadlines, matching records, application statuses, notes and update preferences.
+1. **My Dashboard** — saved jobs, saved-job deadlines, all vacancies closing within seven days, matching records and update preferences. Application tracking has been intentionally removed.
 2. **Find Jobs** — doctor/nurse profiles, specialties, multiple cities, radius, saved jobs and preparation shortcuts.
 3. **Interview Prep** — topic and level filters, job-context selection, reviewed example questions, answer guidance and helpful/not-helpful feedback.
 4. **Moving to the UK** — optional doctor/nurse pathways separating nationality, qualification, institution, internship, practice and registration history, with a general checklist and links to the GMC or NMC.
@@ -34,3 +34,6 @@ Bookmarks, notifications preferences, application statuses, personal notes and p
 
 ## Checks and release
 JavaScript syntax and HTML opening/closing tag counts were checked in the connector environment. Full rendered desktop/mobile, keyboard, accessibility, and end-to-end browser testing are **not yet completed**. Review the development branch and live Pages deployment before any merge to main. Do not enable automatic imports or push without confirmed permitted source access and verified back-end delivery.
+
+## Dashboard adjustment
+The dashboard shows **all currently included vacancies closing within seven days**, regardless of saved status, alongside a distinct saved-job count. Spacing between dashboard sections is uniform. The former application tracker (status and personal notes) has been removed at the user's request. The data source remains a time-sensitive manually curated snapshot, not a complete UK feed.
