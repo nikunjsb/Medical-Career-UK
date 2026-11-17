@@ -37,3 +37,6 @@ JavaScript syntax and HTML opening/closing tag counts were checked in the connec
 
 ## Dashboard adjustment
 The dashboard shows **all currently included vacancies closing within seven days**, regardless of saved status, alongside a distinct saved-job count. Spacing between dashboard sections is uniform. The former application tracker (status and personal notes) has been removed at the user's request. The data source remains a time-sensitive manually curated snapshot, not a complete UK feed.
+
+## Closing-soon dashboard (17 November 2026)
+The dashboard's seven-day deadline count and compact list now respect the visitor's existing browser-stored profession, role, oncology specialty, selected UK cities and radius (subject to verified employer coordinates). It includes unsaved vacancies. Only three matches appear initially; **Show more/Show fewer** expands the list, while **Explore closing jobs** opens Find Jobs with a seven-day filter. The saved-deadlines number remains separate. Search preferences are not re-requested on the dashboard. This feature only filters the current curated vacancy snapshot; it does not provide comprehensive automatic UK-wide updates.
