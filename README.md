@@ -13,7 +13,7 @@ GitHub Pages currently targets the development branch. The main branch is not me
 2. **Find Jobs** — doctor/nurse profiles, specialties, multiple cities, radius, saved jobs and preparation shortcuts.
 3. **Interview Prep** — topic and level filters, job-context selection, reviewed example questions, answer guidance and helpful/not-helpful feedback.
 4. **Moving to the UK** — optional doctor/nurse pathways separating nationality, qualification, institution, internship, practice and registration history, with a general checklist and links to the GMC or NMC.
-5. **Medical Updates** — official links for UK professional and immigration information; live news feed not yet connected.
+5. **Medical Updates** — a dated, curated three-month official-source news archive covering doctors, nursing and immigration, with labels for enacted rules, future changes, consultations, policy announcements and reports. It is not an automated live news feed.
 6. **Settings & Privacy** — dashboard update categories and JSON export/import of local browser data.
 
 The dashboard defaults to all three update categories: jobs, deadlines and medical news. Browser notifications **are not implemented** and are not requested. Selecting Follow on a job stores a local preference, **not a delivered alert**. No login or cross-device sync is present.
@@ -52,3 +52,8 @@ Compared previously discussed oncology openings against existing records. Added 
 Do **not** import previously shortlisted Oxford Gynae Oncology, Bristol Haematology / Oncology Fellow, Wolverhampton Senior Clinical Fellow, or Wolverhampton Gynae Oncology Fellow simply from stale search summaries: their Trac application pages report closure or earlier cut-offs despite inconsistent indexed NHS job pages. Verify employer status before adding them.
 
 Removed the obsolete **Original five** city shortcut; users still have multi-city selection and All UK / Clear cities controls. Existing browser-stored city preferences are retained. The site displays filtered matches, not all records simultaneously.
+
+## Three-month UK medical career news — 17 November 2026
+Added `data/medical-updates.json` with **nine** manually researched official-source items published within 17 August–17 November 2026. The Medical Updates tab displays date, source, UK scope, audience, status, summary, career implications and official source URL. Visitors can filter by Doctors, Nursing or Immigration; records outside the rolling three-month window are hidden. The homepage shows the latest news item when the medical-updates setting is enabled. These summaries are an editorial selection, not an exhaustive roundup. Published law with a future commencement date is distinguished from current rules; government policy announcements and consultations are not represented as final enacted requirements.
+
+News freshness is **not automated**. The `curatedAt` field records the review date, and new items must be sourced, reviewed, and committed in future. Avoid promising daily updates until a verified ingestion and review process is implemented.
