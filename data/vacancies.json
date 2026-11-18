@@ -21,7 +21,9 @@
       "summary": "GTD-focused oncology clinical fellow; advert explicitly specifies GMC specialist registration.",
       "salary": "MN37",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8424642",
@@ -39,7 +41,9 @@
       "summary": "Inpatient and acute oncology care; 40 hours weekly, no on-call rota stated.",
       "salary": "£55,355–£77,348",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8371583",
@@ -57,7 +61,9 @@
       "summary": "Senior oncology fellowship with clinical care and teaching responsibilities; full GMC registration specified.",
       "salary": "£76,582",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8426511",
@@ -75,7 +81,9 @@
       "summary": "ST3+ lymphoma clinical research fellowship; trial design and supervised clinical work.",
       "salary": "£76,582 plus London weighting",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8359368",
@@ -93,7 +101,9 @@
       "summary": "Orthopaedic oncology and joint reconstruction fellowship; requires relevant surgical background.",
       "salary": "£67,325–£76,582",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8415506",
@@ -111,7 +121,9 @@
       "summary": "Consultant-level medical oncology role; review the detailed person specification.",
       "salary": "See official advert",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8413577",
@@ -129,7 +141,9 @@
       "summary": "Part-time ST6-level haemato-oncology research fellowship.",
       "salary": "£76,582 pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8404765",
@@ -147,7 +161,9 @@
       "summary": "Oncology ward and acute oncology fellow; advert states oncology specialist training is not required, but MRCP and ST3+ level are listed.",
       "salary": "£47,610–£76,582",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8276912",
@@ -165,7 +181,9 @@
       "summary": "Post-CCT surgical urology fellowship with uro-oncology interest.",
       "salary": "See official advert",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8372251",
@@ -183,7 +201,9 @@
       "summary": "Subspecialty-trained surgical gynaecological oncology consultant role.",
       "salary": "See official advert",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8430045",
@@ -201,7 +221,9 @@
       "summary": "Breast medical oncology consultant; specialist register requirements apply.",
       "salary": "£113,565–£150,569 pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8267415",
@@ -219,7 +241,9 @@
       "summary": "Clinical oncology consultant in North Wales; GMC specialist register/CCT eligibility required.",
       "salary": "£114,099–£166,585",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8428712",
@@ -238,7 +262,9 @@
       "salary": "£49,387–£56,515 p.a. pro rata (Band 7)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8435076",
@@ -257,7 +283,9 @@
       "salary": "£39,959–£48,117 p.a. pro rata (Band 6)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8393121",
@@ -276,7 +304,9 @@
       "salary": "£55,524–£62,652 p.a. including HCAS",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8406413",
@@ -295,7 +325,9 @@
       "salary": "£79,504–£91,609 p.a. / pro rata (Band 8c)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8436205",
@@ -314,7 +346,9 @@
       "salary": "£49,387–£56,515 p.a. pro rata (Band 7)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8416906",
@@ -333,7 +367,9 @@
       "salary": "£58,133–£65,261 p.a. inclusive (Band 7)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8328681",
@@ -352,7 +388,9 @@
       "salary": "£55,355–£67,325 p.a.",
       "latitude": null,
       "longitude": null,
-      "profession": "doctor"
+      "profession": "doctor",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8382093",
@@ -371,7 +409,9 @@
       "salary": "£49,387–£56,515 p.a. (Band 7)",
       "latitude": null,
       "longitude": null,
-      "profession": "nurse"
+      "profession": "nurse",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8414598",
@@ -390,7 +430,9 @@
       "salary": "£76,582–£77,348 plus London weighting",
       "latitude": null,
       "longitude": null,
-      "profession": "doctor"
+      "profession": "doctor",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8352819",
@@ -409,7 +451,12 @@
       "salary": "£113,565–£150,569",
       "latitude": null,
       "longitude": null,
-      "profession": "doctor"
+      "profession": "doctor",
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 6,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8392868",
@@ -428,7 +475,9 @@
       "salary": "£113,565–£150,569",
       "latitude": null,
       "longitude": null,
-      "profession": "doctor"
+      "profession": "doctor",
+      "contractType": "permanent",
+      "contractDuration": null
     },
     {
       "id": "trac-7440683",
@@ -447,7 +496,9 @@
       "salary": "£113,565–£150,569",
       "latitude": null,
       "longitude": null,
-      "profession": "doctor"
+      "profession": "doctor",
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8413124",
@@ -465,7 +516,9 @@
       "summary": "Advanced structural cardiology fellowship; employer describes final-year specialist trainees or post-CCT doctors with relevant experience.",
       "salary": "MN37",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8362636",
@@ -483,7 +536,9 @@
       "summary": "Full-time cardiology fellow with on-call participation, inpatient work and exposure to cardiac diagnostics.",
       "salary": "£67,325 per annum plus on-call pay",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8422351",
@@ -502,7 +557,9 @@
       "summary": "Band 5 emergency-department nursing vacancy; confirm NMC registration and employer-specific experience criteria.",
       "salary": "£32,073–£39,043 per annum plus HCA",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8416947",
@@ -521,7 +578,9 @@
       "summary": "Clinical oncology outpatients staff nurse at the Royal Marsden's Sutton site; Band 5.",
       "salary": "£36,943–£44,900 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8439751",
@@ -539,7 +598,9 @@
       "summary": "Locum medical oncology consultant in sarcoma and urology; essential criteria include GMC registration and CCT/CESR in Medical Oncology or within six months of CCT at interview.",
       "salary": "£113,565–£150,569 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8421843",
@@ -558,7 +619,9 @@
       "summary": "Band 7 specialist gynaecological oncology nursing; experienced nurse role, full or part-time; check NMC registration and person specification.",
       "salary": "£49,387–£56,515 per annum pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8428149",
@@ -577,7 +640,9 @@
       "summary": "Band 7 specialist nurse across local breast oncology clinics; advert specifies minimum five years post-registration and breast oncology experience.",
       "salary": "£49,387–£56,515 per annum pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8429970",
@@ -596,7 +661,9 @@
       "summary": "Permanent clinical oncology consultant role covering breast and urological cancers; check consultant eligibility and GMC specialist registration.",
       "salary": "Consultant pay scale (see advert)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "permanent",
+      "contractDuration": null
     },
     {
       "id": "trac-8425177",
@@ -615,7 +682,12 @@
       "summary": "12-month respiratory clinical fellowship, approximately ST3–ST5 equivalent; check GMC and clinical experience requirements.",
       "salary": "£45,715–£59,406 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 12,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8382271",
@@ -634,7 +706,12 @@
       "summary": "18-month senior clinical fellowship across inpatient and outpatient neurological services; check experience requirements.",
       "salary": "£67,998–£77,348 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 18,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8375017",
@@ -653,7 +730,9 @@
       "summary": "Band 5 mental-health staff nurse in psychiatric intensive care; verify appropriate NMC registration.",
       "salary": "£32,073–£39,043 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8293384",
@@ -672,7 +751,12 @@
       "summary": "12-month microsurgery and breast-reconstruction fellowship within plastic surgery; advanced surgical experience required.",
       "salary": "£76,582 per annum",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 12,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8425134",
@@ -691,7 +775,12 @@
       "summary": "Twelve-month senior clinical fellowship in histopathology; refer to official person specification.",
       "salary": "£67,325 plus £2,162 London weighting",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 12,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8436741",
@@ -710,7 +799,9 @@
       "summary": "Band 5 nursing in an acute assessment and same-day emergency care unit; verify NMC registration.",
       "salary": "£32,073–£39,043 per annum, pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8420830",
@@ -729,7 +820,12 @@
       "summary": "Band 5 community nursing, fixed term 9 months, 30 hours/week. Employer warns that visa sponsorship may not be available depending on immigration salary and occupation criteria; check eligibility.",
       "salary": "£32,073–£39,043 pro rata (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 9,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8437550",
@@ -748,7 +844,9 @@
       "summary": "ST1/2-level geriatric medicine fellowship, 40 hours/week. Essential: GMC registration and at least one year of NHS experience; employer may close early.",
       "salary": "£55,355 pa pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8433220",
@@ -767,7 +865,9 @@
       "summary": "Permanent Band 6 clinical nursing education, 37.5 hours/week; requires appropriate professional registration; employer may close early.",
       "salary": "£39,959–£48,117 pa pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "permanent",
+      "contractDuration": null
     },
     {
       "id": "trac-8382387",
@@ -786,7 +886,12 @@
       "summary": "Specialised medicine, long-term ventilation; fixed term 12 months. Check NMC registration and person specification.",
       "salary": "£32,073–£39,043 pa pro rata (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 12,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8419573",
@@ -805,7 +910,9 @@
       "summary": "Ward 18 surgical nursing including ENT, colorectal, urology and emergency surgery; newly qualified and experienced applicants considered.",
       "salary": "£32,073–£39,043 pa (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8402431",
@@ -824,7 +931,9 @@
       "summary": "Pre-operative assessment nursing; full- or part-time permanent; registration and person specification apply.",
       "salary": "£32,073–£39,043 pa (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "permanent",
+      "contractDuration": null
     },
     {
       "id": "trac-8419677",
@@ -843,7 +952,12 @@
       "summary": "Four-month acute medicine fellowship, 40 hours/week; ST3–5 level; check GMC registration and essential criteria.",
       "salary": "£67,325 pa pro rata",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 4,
+        "unit": "months"
+      }
     },
     {
       "id": "trac-8402933",
@@ -862,7 +976,9 @@
       "summary": "Surgical specialties nursing; employer requires applicants to declare AI use in supporting statements.",
       "salary": "£47,951–£56,863 pa inclusive HCAS (Band 6)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8425229",
@@ -881,7 +997,9 @@
       "summary": "Employer states a genuine occupational requirement restricting this post to male applicants; must be able to start by June 2027.",
       "salary": "£32,073–£39,043 plus applicable premia (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "not-stated",
+      "contractDuration": null
     },
     {
       "id": "trac-8381948",
@@ -900,7 +1018,12 @@
       "summary": "Ten-week general medicine fellowship; employer may close early; references must cover at least three years.",
       "salary": "£55,355 plus out-of-hours allowances",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 10,
+        "unit": "weeks"
+      }
     },
     {
       "id": "trac-8425378",
@@ -919,7 +1042,9 @@
       "summary": "Permanent 30-hour community hospital nursing role supporting rehabilitation and discharge.",
       "salary": "£32,073–£39,043 pro rata (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "permanent",
+      "contractDuration": null
     },
     {
       "id": "trac-8382049",
@@ -938,7 +1063,12 @@
       "summary": "Ten-week senior acute medicine fellowship; may close early; three years of employer references required.",
       "salary": "£67,325–£76,582 pa plus applicable unsocial-hours pay",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 10,
+        "unit": "weeks"
+      }
     },
     {
       "id": "trac-8408485",
@@ -957,7 +1087,12 @@
       "summary": "Twelve-month maternity cover, 22.5 hours/week; inpatient physical rehabilitation, including nights and weekends.",
       "salary": "£32,073–£39,043 pa pro rata (Band 5)",
       "latitude": null,
-      "longitude": null
+      "longitude": null,
+      "contractType": "fixed-term",
+      "contractDuration": {
+        "value": 12,
+        "unit": "months"
+      }
     }
   ]
 }
