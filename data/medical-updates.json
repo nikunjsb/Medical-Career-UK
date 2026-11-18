@@ -1,11 +1,24 @@
 {
   "schemaVersion": 1,
-  "curatedAt": "2026-11-17",
-  "windowStart": "2026-08-17",
-  "windowEnd": "2026-11-17",
+  "curatedAt": "2026-11-18",
+  "windowStart": "2026-08-18",
+  "windowEnd": "2026-11-18",
   "automated": false,
   "description": "Selected official-source UK healthcare career updates. Not an exhaustive news feed; check original sources for corrections and later developments.",
   "items": [
+    {
+      "id": "mac-global-talent-review-2026",
+      "date": "2026-11-17",
+      "title": "Migration Advisory Committee publishes Global Talent visa review",
+      "category": "Immigration",
+      "status": "Independent recommendations",
+      "scope": "UK-wide",
+      "audience": "Medical researchers and academic clinicians considering the Global Talent route",
+      "summary": "The committee recommends changes to how endorsement references are submitted and guidance to address conflicts of interest.",
+      "impact": "These are recommendations. Use current GOV.UK eligibility and endorsement guidance when preparing an application.",
+      "source": "Migration Advisory Committee",
+      "url": "https://www.gov.uk/government/publications/talent-routes-review"
+    },
     {
       "id": "nursing-public-health-2026",
       "date": "2026-11-16",
