@@ -1964,6 +1964,44 @@
       "latitude": null,
       "longitude": null,
       "statusReason": "Closing date passed; no verified extension as of 2026-11-21"
+    },
+    {
+      "id": "trac-8443281",
+      "title": "Trust Doctor (ST5+) in Cardiothoracic Anaesthesia and Critical Care",
+      "profession": "doctor",
+      "role": "Senior Clinical Fellow",
+      "specialty": "anaesthesia",
+      "city": "London",
+      "org": "Barts Health NHS Trust",
+      "closingDate": "2026-12-01",
+      "verifiedAt": "2026-11-23",
+      "status": "open",
+      "sourceUrl": "https://apps.trac.jobs/job-advert/8443281?ShowJobAdvert=&feedid=9005",
+      "sourceName": "Trac / NHS employer advert",
+      "address": "St Bartholomew's Hospital, West Smithfield, London EC1A 7BE",
+      "summary": "Fixed term 12 months, full time 40 hours; £56,763–£69,976. Full GMC registration and licence at appointment; FRCA/equivalent, stage 3 anaesthetic competence, minimum six months each in cardiothoracic anaesthesia and intensive care. Advert notes six- or twelve-month posts and may close early.",
+      "salary": "£56,763–£69,976 per annum",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "trac-8442220",
+      "title": "Senior Clinical Fellow in Critical Care",
+      "profession": "doctor",
+      "role": "Senior Clinical Fellow",
+      "specialty": "critical-care",
+      "city": "Gloucester",
+      "org": "Gloucestershire Hospitals NHS Foundation Trust",
+      "closingDate": "2026-12-01",
+      "verifiedAt": "2026-11-23",
+      "status": "open",
+      "sourceUrl": "https://apps.trac.jobs/job-advert/8442220?ShowJobAdvert=&feedid=9005",
+      "sourceName": "Trac / NHS employer advert",
+      "address": "Gloucestershire Hospitals, Great Western Road, Gloucester GL1 3NN",
+      "summary": "Fixed term 12 months, 40 hours weekly including resident on-call; full GMC registration and ALS essential, 12 months critical care resident cover and 18 months anaesthetic experience with IAC. Sponsorship depends on individual visa circumstances and salary threshold. Employer may close early.",
+      "salary": "£67,325–£76,582 per annum",
+      "latitude": null,
+      "longitude": null
     }
   ]
 }
